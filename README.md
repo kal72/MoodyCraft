@@ -1,2 +1,2 @@
 # MoodyCraft
-web design
+Html bootstrap store design

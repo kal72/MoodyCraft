@@ -1,0 +1,236 @@
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #f2f4f7
+}
+
+.logo{
+    position: absolute;;
+    height: 45px;
+    top: 0;
+}
+.logo-title{
+    padding-left: 60px;
+}
+
+.bg{
+    background: url(../image/rect4157.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title-home{
+    margin-left: 20px;
+    margin-top: 115px;
+}
+
+.home{
+    margin-bottom: 150px;
+}
+
+
+.blue-text{
+	color: #2980b9;
+}
+
+.night-blue-text{
+	color: #34495e;
+	font-style: bold;
+}
+
+.abu-text{
+	color: #a2a7aa;
+}
+
+.green-text{
+	color: #2ecc71;
+	font-style: bold;
+}
+
+.footer{
+	margin-top: 70px;
+	background: #333333;
+	color: white;
+}
+
+.footer .margin-fot{
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+.footer .margin-text{
+	margin-bottom: 20px;
+}
+
+.btn-transparent {    
+    background: transparent; 
+    border: 1px solid #ccc;    
+}
+
+.btn-super-lg {
+    padding: 20px 80px 20px 80px;
+    background: #337ab7;
+    font-size: 18px;
+    color: #FFF;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 90px;
+}
+.btn-super-lg:hover{
+	background: #019bda;
+	color: white;
+}
+.btn-super-lg:active{	
+	background: #337ab7;
+	color: white;
+}
+.btn-super-lg:focus{	
+	border: none;
+	background: #337ab7;
+	color: white;
+}
+
+.footer-bootom{
+	background: #444;
+    color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.footer-bootom a{
+	color: #2ecc71;
+}
+
+.footer-bootom ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bootom li {
+    display: inline;
+}
+.footer-bootom ul li a img{
+	width: 30px;
+	margin-right: 10px
+
+}
+
+.footer-bootom .address{
+	padding-top: 8px;
+	font-size: 14px;
+}
+
+.img-product{
+	margin-top: 0;
+	padding-top: 0;
+	width: 100%;
+	height: auto;
+}
+
+.panel-padding{
+	padding-top: 0;
+}
+
+.links{
+	display: inline-block;    
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    color: #545454;
+}
+.links:hover{
+	color: #1998ed;
+}
+
+.price{
+	color:#ff549b;
+	font-style: bold;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.about{
+    margin-top: 10px;
+}
+.about-padding{
+    padding-top: 50px;
+}
+.about-img{
+    margin-left: 50px;
+    width: 150px;
+}
+.about-des{
+    margin-top: 35px;
+}
+
+.contact{
+    margin-top: 50px;
+}
+.contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact ul li a{
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.contact ul li img{
+    width: 50px;    
+
+}
+
+.comment{
+    padding: 10px;
+}
+
+.tab-layout{
+    padding-top: 20px;
+}

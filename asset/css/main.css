@@ -200,6 +200,8 @@ body{
 }
 .about-des{
     margin-top: 35px;
+    margin-right: 50px;
+    text-align: justify;
 }
 
 .contact{
@@ -233,4 +235,7 @@ body{
 
 .tab-layout{
     padding-top: 20px;
+}
+.form-horizontal .control-label{
+    text-align: left;
 }
